@@ -1,0 +1,21 @@
+
+
+
+.bg-store {
+    background-color: #ae0000;
+    border: 0px;
+
+}
+.fg-store {
+    color: rgb(255, 255, 255);
+  
+}
+.space-top {
+    margin-top: 72px;
+}
+.scroll {
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+

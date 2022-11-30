@@ -1,0 +1,184 @@
+
+@media only screen and (max-width: 100%) {
+  #navbarTogglerDemo02 {
+    position: fixed;
+    top: 0;
+    left: 15px;
+    z-index: 99;
+    width: 280px;
+    height: 100%;
+    background-color: #ddd;
+    overflow: auto;
+  }
+  .menu-overlay {
+    display: none;
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* IE7 & 8 */
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 49;
+  }
+
+}
+
+.div-img {width:50%; transform: rotate(30deg); }
+
+.welcome-layer-3 {
+    height: 100%;
+    /* left: 0; */
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.home3-layer-1 {
+    right: 10%;
+    top: -18%;
+}
+.welcome-layer-3 > div {
+    position: absolute;
+}
+
+
+
+.bg-1 {
+ background-image: url("http://quomodosoft.com/html/applic/applic/assets/img/background/green_bg.png");
+ background-color: #cccccc;
+}
+.bg-2 {
+ background-image: url("http://quomodosoft.com/html/applic/applic/assets/img/bg-layers/map-layer.png");
+ background-color: #cccccc;
+}
+
+/* Social Medias */
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    background: #322f30;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-github:hover {
+    background-color: #5a32a3;
+}
